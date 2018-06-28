@@ -1,4 +1,4 @@
-{% set version = '0.4-14' %}
+{% set version = "0.5-0" %}
 
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
@@ -12,7 +12,7 @@ source:
   url:
     - https://cran.r-project.org/src/contrib/semTools_{{ version }}.tar.gz
     - https://cran.r-project.org/src/contrib/Archive/semTools/semTools_{{ version }}.tar.gz
-  sha256: 0c24e4e2db46529e6270d1a2fbb6422be7da9e048e2600180229926055852cc8
+  sha256: d0fad6d3d5f858b19509940a017ec68d77bf2d00824775869d18491542b16a2a
 
 build:
   number: 0
