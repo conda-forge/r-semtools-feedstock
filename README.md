@@ -7,7 +7,7 @@ Package license: GPL (>= 2)
 
 Feedstock license: BSD 3-Clause
 
-Summary: Provides useful tools for structural equation modeling packages.
+Summary: Provides useful tools for structural equation modeling.
 
 
 
