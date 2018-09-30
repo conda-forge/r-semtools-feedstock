@@ -1,4 +1,4 @@
-{% set version = '0.5-0' %}
+{% set version = '0.5-1' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -11,7 +11,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/semTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/semTools/semTools_{{ version }}.tar.gz
-  sha256: d0fad6d3d5f858b19509940a017ec68d77bf2d00824775869d18491542b16a2a
+  sha256: d11e3e94ea68199fe1a3ccaa8b640b0ac487f82dd724da6a900c2284b8070152
 
 build:
   merge_build_host: True  # [win]
@@ -23,12 +23,13 @@ build:
 
 requirements:
   build:
+    - {{posix}}zip               # [win]
   host:
     - r-base
-    - r-lavaan >=0.6.1
+    - r-lavaan >=0.6.3
   run:
     - r-base
-    - r-lavaan >=0.6.1
+    - r-lavaan >=0.6.3
 
 test:
   commands:
@@ -50,3 +51,4 @@ extra:
     - daler
     - jdblischak
     - cbrueffer
+    - dbast
