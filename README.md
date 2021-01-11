@@ -5,11 +5,9 @@ Home: https://github.com/simsem/semTools/wiki
 
 Package license: GPL-2
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-semtools-feedstock/blob/master/LICENSE.txt)
 
 Summary: Provides useful tools for structural equation modeling.
-
-
 
 Current build status
 ====================
