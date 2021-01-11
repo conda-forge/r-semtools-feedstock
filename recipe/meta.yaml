@@ -1,4 +1,4 @@
-{% set version = "0.5-3" %}
+{% set version = "0.5-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/semTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/semTools/semTools_{{ version }}.tar.gz
-  sha256: 2df8f9235ebbd9ebbce713585783483553e8b2bfdeee0e6d4c88026c1d087c4c
+  sha256: 788bda4adf7f0733b146a6264682f271a19bd0322254aa71d7ba0add88556b96
 
 build:
   merge_build_host: true  # [win]
