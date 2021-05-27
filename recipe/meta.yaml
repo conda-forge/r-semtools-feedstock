@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/simsem/semTools/wiki
-  license: GPL-2
+  license: GPL-2.0-or-later
   summary: Provides useful tools for structural equation modeling.
   license_family: GPL2
   license_file:
