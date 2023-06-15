@@ -1,11 +1,11 @@
-About r-semtools
-================
+About r-semtools-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-semtools-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/simsem/semTools/wiki
 
 Package license: GPL-2.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-semtools-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides useful tools for structural equation modeling.
 
