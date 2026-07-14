@@ -7,16 +7,17 @@ Home: https://github.com/simsem/semTools/wiki
 
 Package license: GPL-2.0-or-later
 
-Summary: Provides useful tools for structural equation modeling.
+Summary: Provides miscellaneous tools for structural equation modeling, many of which extend the 'lavaan' package. For example, latent interactions can be estimated using product indicators (Lin et al., 2010, <doi:10.1080/10705511.2010.488999>) and simple effects probed; analytical power analyses can be conducted (Jak et al., 2021, <doi:10.3758/s13428-020-01479-0>); and scale reliability can be estimated based on estimated factor-model parameters.
 
 Current build status
 ====================
 
 
-<table><tr><td>All platforms:</td>
+<table><tr>
+    <td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=1596&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/r-semtools-feedstock?branchName=main">
+      <a href="https://github.com/conda-forge/r-semtools-feedstock/actions/workflows/conda-build.yml">
+        <img src="https://github.com/conda-forge/r-semtools-feedstock/actions/workflows/conda-build.yml/badge.svg?event=push&branch=main">
       </a>
     </td>
   </tr>
