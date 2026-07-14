@@ -7,7 +7,7 @@ Home: https://github.com/simsem/semTools/wiki
 
 Package license: GPL-2.0-or-later
 
-Summary: Provides useful tools for structural equation modeling.
+Summary: Provides miscellaneous tools for structural equation modeling, many of which extend the 'lavaan' package. For example, latent interactions can be estimated using product indicators (Lin et al., 2010, <doi:10.1080/10705511.2010.488999>) and simple effects probed; analytical power analyses can be conducted (Jak et al., 2021, <doi:10.3758/s13428-020-01479-0>); and scale reliability can be estimated based on estimated factor-model parameters.
 
 Current build status
 ====================
