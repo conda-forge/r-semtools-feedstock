@@ -1,4 +1,4 @@
-{% set version = "0.5-8" %}
+{% set version = "0.5-9" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/semTools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/semTools/semTools_{{ version }}.tar.gz
-  sha256: 4092d156ee89ac6b684c71916535e423bed115d0c89395563c30de003f52384f
+  sha256: 8de79f0b2c4ff07e11254d60d6a3918b36beb5b5323e64be8f0bfe6d18f1ade5
 
 build:
   number: 0
